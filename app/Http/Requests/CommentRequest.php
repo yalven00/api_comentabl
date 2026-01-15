@@ -40,8 +40,8 @@ class CommentRequest extends FormRequest
     public function messages(): array
     {
         return [
-            'content.max' => 'Комментарий не должен превышать 5000 символов',
-            'commentable_type.in' => 'Недопустимый тип комментируемой сущности',
+            'content.max' => 'Comment can not being more then 5000 символов',
+            'commentable_type.in' => 'Bad type of commentable type',
         ];
     }
 }
